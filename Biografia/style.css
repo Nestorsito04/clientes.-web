@@ -1,0 +1,84 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.car{
+    background-color: #ffffff;
+    max-width: 400px;
+    width: 90%;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+
+.imagen-perfil {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #0076ff;
+    margin-bottom: 15px;
+}
+
+
+h1 {
+    font-size: 24px;
+    color: #333333;
+    margin: 10px 0 5px 0;
+}
+
+.profesion {
+    font-size: 16px;
+    color: #0076ff;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+}
+
+.separador {
+    border: 0;
+    height: 1px;
+    background: #e0e0e0;
+    margin: 20px 0;
+}
+
+.descripcion {
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+
+.enlaces-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap; 
+}
+
+.enlaces-sociales a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #333333;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.enlaces-sociales a:hover {
+    background-color: #0076ff;
+    transform: translateY(-2px);
+}
